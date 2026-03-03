@@ -112,5 +112,12 @@ X,Y, theta,linear_velocity,angular_velocity =float32 형태로 들어있음
   '[2.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]' 2번 실행
 
 
+# turtlesim 2개 동시 실행 관찰
 
+하나만 움직입니다
+Subscribers: 
+ * /turtlesim (http://ubuntu:36201/)
+ * /my_turtle (http://ubuntu:42981/)
+
+주소가 다르기 때문입니다
 
