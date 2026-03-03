@@ -41,3 +41,28 @@ source devel/setup.bash
 ```bash
 echo $ROS_PACKAGE_PATH
 ```
+
+# setting
+6. rosdep install
+```bash
+sudo apt install python3-rosdep
+rosdep --version
+sudo rosdep init
+```
+
+7. Creating a catkin Package
+
+```bash
+catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+```
+
+7. Building a catkin workspace and sourcing the setup file
+
+```bash
+. ~/catkin_ws/devel/setup.bash
+```
+
+8. turtle keyboard teleoperation
+```bash
+rosrun turtlesim turtle_teleop_key
+```
