@@ -66,3 +66,15 @@ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
 ```bash
 rosrun turtlesim turtle_teleop_key
 ```
+
+
+## /turtle1/pose 필드 분석
+
+X: 거북이가 x좌표가 늘어나는 방향으로 가면 증가합니다
+Y: 거북이가 y좌표가 늘어가는 방향으로 가면 증가합니다
+
+theta: 거북이가 12시를 기준으로 반시계 방향회전 할때 3.~ 까지 늘어나다가 줄어듭니다
+
+linear_velocity: 전진키를 누르면 2.0까지 올라가고 거북이가 멈추면 0이 됩니다
+angular_velocity: 회전할떄 2.0까지 올라고 거북이가 회전을 멈추면 0이 됩니다
+
