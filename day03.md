@@ -6,6 +6,7 @@
 
 ## rosbag play
 
-<!-- 여기에 재생 결과 스크린샷을 넣으세요 -->
+![rosbag play 재생 결과](screenshots/rosbag_play.png)
+
 	
 
