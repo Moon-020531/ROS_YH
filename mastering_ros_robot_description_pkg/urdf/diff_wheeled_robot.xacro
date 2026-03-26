@@ -203,6 +203,7 @@
 	    <robotNamespace>/</robotNamespace>
 	    <publishTf>1</publishTf>
 	    <publishWheelJointState>false</publishWheelJointState>
+      
 	    <alwaysOn>true</alwaysOn>
 	    <updateRate>30.0</updateRate>
 	    <leftJoint>front_left_wheel_joint</leftJoint>
